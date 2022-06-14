@@ -186,7 +186,8 @@ hr {
 .orgs p {
     font-size: 16px;
     font-weight: 600;
-    margin: 10px 0 3px; 0;
+    margin: 10px 0 3px;
+    0;
     text-align: center;
 }
 
@@ -213,13 +214,49 @@ hr {
     margin-bottom: 20px;
 }
 
+.timeline {
+    border-left: solid 1px #eaeaea;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timeline li {
+    position: relative;
+    margin-left: -25px;
+    font-size: 46px;
+    line-height: 16px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.timeline p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.timeline li:before {
+    content: "•";
+    position: absolute;
+    left: -22px;
+    top: -3px;
+    font-size: 36px;
+    padding-right: 10px;
+}
+
+.timeline label {
+    display: block;
+    font-size: 14px;
+    margin: 5px 0;
+    opacity: 0.5;
+}
+
 .schedule {
     width: 100%;
     font-weight: 300;
 }
 
-.row_type_C {
-}
+.row_type_C {}
 
 .row_type_A {
     background: #ffd1fa;
